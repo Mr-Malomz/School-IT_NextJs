@@ -1,6 +1,6 @@
 ## School-IT
 
-School-IT is a virtual student-centered education and experiential learning platform to connect both teacher and students.
+School-IT is a virtual student-centered education and experiential learning platform to connect both teachers and students.
 
 ### Mockup Link
 
