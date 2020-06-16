@@ -4,6 +4,7 @@ module.exports = {
 		extend: {
 			colors: {
 				'brand-main': '#F18585',
+				'brand-main-hover': '#e66565',
 				'brand-main-light': '#FEF3F3',
 				'brand-sec': '#46C3EA',
 				'brand-sec-light': '#ECF9FD',
@@ -13,6 +14,7 @@ module.exports = {
 				'admin-nav-light': '#435260',
 				'btn-sec': '#074279',
 				'btn-cancel': '#AB2424',
+				'text-color-main': '#220F0F',
 			},
 		},
 	},

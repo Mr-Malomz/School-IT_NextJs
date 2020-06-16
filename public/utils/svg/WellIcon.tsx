@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function WellIcon(props: React.SVGProps<SVGSVGElement>) {
 	return (
-		<svg width={42} height={40} fill='none' {...props}>
+		<svg width={70} height={40} fill='none' {...props}>
 			<g clipPath='url(#prefix__clip0)'>
 				<g clipPath='url(#prefix__clip1)'>
 					<path

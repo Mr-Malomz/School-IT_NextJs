@@ -3,3 +3,23 @@
 @tailwind components;
 
 @tailwind utilities;
+
+/* custom style */
+ .main-svg-comp-1 {
+  background: url('./svg/main-svgcomp.svg');
+  height: 480px;
+  background-repeat: no-repeat;
+}
+
+.main-svg-comp-2 {
+  background: url('./svg/mini-svgcomp.svg');
+  height: 480px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.main-svg-comp-3 {
+  background: url('./svg/wide-svgcomp.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
