@@ -27,17 +27,17 @@ const Navbar = () => {
 			</div>
 			<div className={`px-4 pt-2 pb-3 ${isOpen ? 'block' : 'hidden'} lg:flex`}>
 				<Link href='#'>
-					<a className='block font-medium capitalize py-1 text-gray-700 hover:text-brand-main lg:mt-3 lg:mb-3 lg:mr-8'>
+					<a className='block font-medium capitalize py-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
 						home
 					</a>
 				</Link>
-				<Link href='#'>
-					<a className='block font-medium capitalize py-1 mt-1 text-gray-700 hover:text-brand-main lg:mt-3 lg:mb-3 lg:mr-8'>
+				<Link href='about'>
+					<a className='block font-medium capitalize py-1 mt-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
 						about
 					</a>
 				</Link>
 				<Link href='#'>
-					<a className='block font-medium capitalize py-1 mt-1 text-gray-700 hover:text-brand-main lg:mt-3 lg:mb-3 lg:mr-8'>
+					<a className='block font-medium capitalize py-1 mt-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
 						contact
 					</a>
 				</Link>

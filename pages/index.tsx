@@ -11,6 +11,7 @@ import LandingPage1SVG from '../public/utils/svg/LandingPage1SVG';
 import IntIcon from '../public/utils/svg/IntIcon';
 import MassiveIcon from '../public/utils/svg/MassiveIcon';
 import EasyIcon from '../public/utils/svg/EasyIcon';
+import LinkButton from '../components/LinkButton';
 
 const Home = () => {
 	return (
@@ -23,11 +24,7 @@ const Home = () => {
 							A student-centered <br /> education and <br />{' '}
 							experiential learning <br /> platform
 						</h1>
-						<Link href='#'>
-							<a className='block font-medium capitalize flex items-center justify-center py-1 mt-8 h-12 mb-3 bg-brand-main w-64 text-white rounded-full text-center hover:bg-brand-main-hover lg:mr-8'>
-								get started
-							</a>
-						</Link>
+						<LinkButton text='Get Started' href='#' />
 					</div>
 				</div>
 				<div className='main-svg-comp-2 w-full'>
@@ -102,12 +99,53 @@ const Home = () => {
 					</div>
 				</div>
 				<div className='transform translate-y-5 flex justify-center'>
-					<Link href='#'>
-						<a className='block font-medium capitalize flex items-center justify-center py-1 mt-8 h-12 mb-3 bg-brand-main w-64 text-white rounded-full text-center hover:bg-brand-main-hover lg:mr-8'>
-							get started
-						</a>
-					</Link>
+					<LinkButton text='Get Started' href='#' />
 				</div>
+			</section>
+			<section className='bg-brand-white py-8 h-auto pb-6 pl-12 lg:pl-0'>
+				<div className='flex flex-col  lg:justify-around lg:items-center  lg:flex-row'>
+					<img
+						src='/utils/images/logo.png'
+						className='h-8 mb-12 w-32'
+						alt='School-logo'
+					/>
+					<div className='flex flex-col justify-center lg:items-center'>
+						<p className='text-text-color-main capitalize mb-6'>
+							legal
+						</p>
+						<Link href='#'>
+							<a className='text-brand-main capitalize mb-6 hover:text-brand-main-hover'>
+								terms
+							</a>
+						</Link>
+						<Link href='#'>
+							<a className='text-brand-main capitalize mb-6 hover:text-brand-main-hover'>
+								privacy
+							</a>
+						</Link>
+						<Link href='#'>
+							<a className='text-brand-main capitalize mb-6 hover:text-brand-main-hover'>
+								cookies
+							</a>
+						</Link>
+					</div>
+					<div className='flex flex-col justify-center lg:items-center'>
+						<p className='text-text-color-main capitalize mb-6'>
+							contact us
+						</p>
+						<Link href='#'>
+							<a className='text-brand-main capitalize mb-6 hover:text-brand-main-hover'>
+								contact@schoolit.com
+							</a>
+						</Link>
+						<Link href='#'>
+							<a className='text-brand-main capitalize mb-6 hover:text-brand-main-hover'>
+								+234-8050715616
+							</a>
+						</Link>
+					</div>
+				</div>
+				<p className='opacity-75 text-center mt-8'>{`Copyright @schoolIT, ${new Date().getFullYear()}`}</p>
 			</section>
 		</div>
 	);

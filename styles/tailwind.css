@@ -5,21 +5,28 @@
 @tailwind utilities;
 
 /* custom style */
- .main-svg-comp-1 {
-  background: url('./svg/main-svgcomp.svg');
-  height: 480px;
-  background-repeat: no-repeat;
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap'); */
+
+@font-face {
+	font-family: 'Montserrat', sans-serif !important;
+	src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+}
+
+.main-svg-comp-1 {
+	background: url('./svg/main-svgcomp.svg');
+	height: 480px;
+	background-repeat: no-repeat;
 }
 
 .main-svg-comp-2 {
-  background: url('./svg/mini-svgcomp.svg');
-  height: 480px;
-  background-repeat: no-repeat;
-  background-position: right bottom;
+	background: url('./svg/mini-svgcomp.svg');
+	height: 480px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
 
 .main-svg-comp-3 {
-  background: url('./svg/wide-svgcomp.svg');
-  background-repeat: no-repeat;
-  background-position: bottom;
+	background: url('./svg/wide-svgcomp.svg');
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
