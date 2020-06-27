@@ -27,27 +27,27 @@ const Navbar = () => {
 			</div>
 			<div className={`px-4 pt-2 pb-3 ${isOpen ? 'block' : 'hidden'} lg:flex`}>
 				<Link href='#'>
-					<a className='block font-medium capitalize py-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
+					<a className='block font-semibold capitalize py-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
 						home
 					</a>
 				</Link>
 				<Link href='about'>
-					<a className='block font-medium capitalize py-1 mt-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
+					<a className='block font-semibold capitalize py-1 mt-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
 						about
 					</a>
 				</Link>
-				<Link href='#'>
-					<a className='block font-medium capitalize py-1 mt-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
+				<Link href='contact'>
+					<a className='block font-semibold capitalize py-1 mt-1 text-gray-700 hover:text-brand-main-hover lg:mt-3 lg:mb-3 lg:mr-8'>
 						contact
 					</a>
 				</Link>
 				<Link href='#'>
-					<a className='block font-medium capitalize py-1 mt-3 mb-3 text-brand-main w-24 border-solid border-2 border-brand-main rounded-full text-center hover:bg-brand-main-hover hover:text-white lg:mr-8'>
+					<a className='block font-semibold capitalize py-1 mt-3 mb-3 text-brand-main w-24 border-solid border-2 border-brand-main rounded-full text-center hover:border-brand-main-hover hover:bg-brand-main-hover hover:text-white lg:mr-8'>
 						login
 					</a>
 				</Link>
 				<Link href='#'>
-					<a className='block font-medium capitalize py-1 mt-3 mb-3 bg-brand-main w-24 text-white rounded-full text-center hover:bg-brand-main-hover lg:mr-8'>
+					<a className='block font-semibold capitalize py-1 mt-3 mb-3 bg-brand-main w-24 text-white rounded-full text-center hover:bg-brand-main-hover lg:mr-8'>
 						sign up
 					</a>
 				</Link>

@@ -30,3 +30,9 @@
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
+
+.contact-svg-1 {
+	background: url('./svg/contact-svg.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+}
