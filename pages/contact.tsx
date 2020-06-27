@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import InputField from '../components/InputField';
+import GenSubmitButton from '../components/GenSubmitButton';
 
 const contact = () => {
 	return (
@@ -16,7 +17,7 @@ const contact = () => {
 			</Link>
 			<section className='flex justify-between flex-col lg:flex-row'>
 				<div className='flex flex-col w-full'>
-					<h1 className='text-4xl leading-tight font-medium text-text-color-main mb-8 lg:text-4xl lg:leading-none'>
+					<h1 className='text-4xl leading-tight font-bold text-text-color-main mb-8 lg:text-4xl lg:leading-none'>
 						Get in touch
 					</h1>
 					<p className='opacity-50 mb-8'>
@@ -39,13 +40,11 @@ const contact = () => {
 							placeholder='Messages'
 							rows={4}
 						/>
-						<button className='font-semibold capitalize flex items-center justify-center py-1 h-12 mb-3 bg-brand-main w-64 text-white rounded-full text-center hover:bg-brand-main-hover lg:mr-8'>
-							submit
-						</button>
+						<GenSubmitButton text='submit'/>
 					</form>
 				</div>
 				<div className='hidden lg:block w-full'>
-					<h1 className='text-4xl text-right leading-tight font-medium text-text-color-main mb-8 lg:text-4xl lg:leading-none'>
+					<h1 className='text-4xl text-right leading-tight font-bold text-text-color-main mb-8 lg:text-4xl lg:leading-none'>
 						contact
 					</h1>
 				</div>

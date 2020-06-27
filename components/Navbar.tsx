@@ -41,12 +41,12 @@ const Navbar = () => {
 						contact
 					</a>
 				</Link>
-				<Link href='#'>
+				<Link href='login'>
 					<a className='block font-semibold capitalize py-1 mt-3 mb-3 text-brand-main w-24 border-solid border-2 border-brand-main rounded-full text-center hover:border-brand-main-hover hover:bg-brand-main-hover hover:text-white lg:mr-8'>
 						login
 					</a>
 				</Link>
-				<Link href='#'>
+				<Link href='register'>
 					<a className='block font-semibold capitalize py-1 mt-3 mb-3 bg-brand-main w-24 text-white rounded-full text-center hover:bg-brand-main-hover lg:mr-8'>
 						sign up
 					</a>

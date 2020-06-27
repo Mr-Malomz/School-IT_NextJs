@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-interface InputProps {
+interface InputProps extends React.DetailedHTMLProps < React.InputHTMLAttributes < HTMLInputElement >, HTMLInputElement >{
 	placeholder: string;
 	name: string;
 	type: string;

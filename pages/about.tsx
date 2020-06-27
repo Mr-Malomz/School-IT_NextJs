@@ -48,7 +48,7 @@ const About = () => {
 						bring parents, teachers and students on a common
 						interactive platform.
 					</p>
-                    <LinkButton text='Get Started' href='#' />
+                    <LinkButton text='Get Started' href='register' />
 				</div>
                 <div className='lg:w-full hidden lg:block lg:flex justify-center items-center'>
                     <AboutSVG />
