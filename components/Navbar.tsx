@@ -21,7 +21,7 @@ const Navbar = () => {
 						type='button'
 						onClick={() => setIsOpen(!isOpen)}
 					>
-						{isOpen ? <MenuClose /> : <MenuIcon />}
+						{isOpen ? <MenuClose color='#000000'/> : <MenuIcon />}
 					</button>
 				</div>
 			</div>
