@@ -16,6 +16,19 @@ import LinkButton from '../components/LinkButton';
 const Home = () => {
 	return (
 		<div className=''>
+			<Head>
+				<title>Home</title>
+				<meta charSet='utf-8' />
+				<meta
+					name='viewport'
+					content='initial-scale=1.0, width=device-width'
+				/>
+				<meta name='SchoolIT' content='HTML, CSS, JavaScript' />
+				<meta
+					name='School Management System'
+					content='HTML, CSS, JavaScript'
+				/>
+			</Head>
 			<Navbar />
 			<section className='bg-white h-auto mb-12 flex flex-col lg:flex-row'>
 				<div className='main-svg-comp-1 px-12 flex items-center lg:px-24 w-full'>
