@@ -18,8 +18,7 @@ const Sidebar: FC<NavProps> = ({ isModalOpen, handleModal }) => {
 			<nav
 				className={`bg-admin-nav-light ${
 					isModalOpen ? 'block' : 'hidden'
-				} lg:block absolute w-56 mt-2 ml-3 lg:mt-0 lg:ml-0 rounded-lg lg:min-h-full lg:rounded-none lg:relative`}
-				style={{ height: '95%' }}
+				} lg:block absolute w-56 mt-2 ml-3 z-10 lg:mt-0 lg:ml-0 rounded-lg lg:min-h-full lg:rounded-none lg:relative`}
 			>
 				<div className='flex justify-between py-3 px-8'>
 					<Link href='#'>
