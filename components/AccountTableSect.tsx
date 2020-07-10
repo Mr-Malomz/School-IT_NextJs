@@ -55,14 +55,16 @@ const AccountTableSect = () => {
 								</Link>
 							</td>
 						</tr>
+						<tr>
+							<td colSpan={7}>
+								<div
+									className='p-6 w-full'
+									style={{ backgroundColor: '#F5F4F4' }}
+								></div>
+							</td>
+						</tr>
 					</tbody>
 				</table>
-				<div
-					className='p-6 w-full'
-					style={{ backgroundColor: '#F5F4F4' }}
-				>
-                    
-                </div>
 			</TableWrapper>
 		</div>
 	);
