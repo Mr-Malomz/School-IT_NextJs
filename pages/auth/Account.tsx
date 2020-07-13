@@ -24,7 +24,7 @@ const Account = () => {
 			<h3 className='text-2xl font-semibold capitalize mb-6'>account</h3>
 			<div className='w-full flex justify-between mb-12'>
 				<div
-					className=' w-56 p-6 rounded-lg flex justify-between items-center lg:w-64'
+					className=' w-48 py-4 px-3 lg:p-6 rounded-lg flex justify-between items-center lg:w-64'
 					style={styles.bgContainer}
 				>
 					<div className=''>
@@ -75,7 +75,7 @@ const Account = () => {
 					</div>
 				</div>
 				<div
-					className='rounded-lg w-56 p-6 lg:w-64'
+					className='rounded-lg w-48 py-4 px-3 lg:p-6 lg:w-64'
 					style={styles.bgContainer}
 				>
 					<div className='flex items-center'>
