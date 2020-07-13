@@ -11,7 +11,7 @@ const TableWrapper = styled.div`
 		border-collapse: separate;
 		border-spacing: 0 0px;
 		font-size: 14px;
-		margin-top: 30px;
+		margin: 30px 0;
 
 		thead {
 			th {
@@ -74,7 +74,7 @@ const AccountTableSect = () => {
 					<tbody>
 						<tr>
 							<td className='pl-3'>
-								{!state.show && (
+								{state.index != 1 && (
 									<ArrowRight
 										className='cursor-pointer'
 										onClick={(e) => handleToggle(e, 1)}
@@ -83,7 +83,13 @@ const AccountTableSect = () => {
 								{state.index == 1 && state.show && (
 									<ArrowDownTab
 										className='cursor-pointer'
-										onClick={(e) => handleToggle(e, 1)}
+										onClick={(e) =>
+											setShow({
+												...state,
+												show: !state.show,
+												index: '',
+											})
+										}
 									/>
 								)}
 							</td>
@@ -143,7 +149,7 @@ const AccountTableSect = () => {
 						)}
 						<tr>
 							<td className='pl-3'>
-								{!state.show && (
+								{state.index != 2 && (
 									<ArrowRight
 										className='cursor-pointer'
 										onClick={(e) => handleToggle(e, 2)}
@@ -152,7 +158,13 @@ const AccountTableSect = () => {
 								{state.index == 2 && state.show && (
 									<ArrowDownTab
 										className='cursor-pointer'
-										onClick={(e) => handleToggle(e, 2)}
+										onClick={(e) =>
+											setShow({
+												...state,
+												show: !state.show,
+												index: '',
+											})
+										}
 									/>
 								)}
 							</td>

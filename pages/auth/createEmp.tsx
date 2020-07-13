@@ -51,7 +51,7 @@ const CreateEmp = () => {
 							{ name: 'Female', value: 'female' },
 						]}
 					/>
-					<ButtonForm text='create' bgColor='#074279' style={{width: '100%'}} />
+					<ButtonForm text='create' bgColor='#074279' width='w-full' />
 				</form>
 			</section>
 		</AuthLayout>

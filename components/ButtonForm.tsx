@@ -7,12 +7,13 @@ interface ButtonProps
 	> {
 	text: string;
 	bgColor: string;
+	width?: string;
 }
 
-const ButtonForm: FC<ButtonProps> = ({ bgColor, text }) => {
+const ButtonForm: FC<ButtonProps> = ({ bgColor, text, width }) => {
 	return (
 		<button
-			className='text-white font-semibold rounded-full text-sm p-2 capitalize px-10 '
+			className={`focus:outline-none text-white font-semibold rounded-full text-sm p-2 capitalize px-10 ${width}`}
 			style={{ background: bgColor }}
 		>
 			{text}
