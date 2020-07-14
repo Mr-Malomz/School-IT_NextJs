@@ -22,6 +22,7 @@ module.exports = {
 				'btn-sec': '#074279',
 				'btn-cancel': '#AB2424',
 				'text-color-main': '#220F0F',
+				'bdradius-color': '#132637',
 			},
 		},
 	},

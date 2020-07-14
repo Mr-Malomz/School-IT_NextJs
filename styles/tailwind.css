@@ -55,3 +55,7 @@
 .active_acct {
 	@apply text-btn-sec border-btn-sec border-b-4;
 }
+
+.active_nav {
+	@apply bg-admin-nav rounded-r-full border-l-4 border-bdradius-color;
+}

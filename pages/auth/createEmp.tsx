@@ -8,7 +8,7 @@ import ButtonForm from '../../components/ButtonForm';
 
 const CreateEmp = () => {
 	return (
-		<AuthLayout pageTitle='Manage Employee'>
+		<AuthLayout pageTitle='Create Employee'>
 			<h3 className='text-2xl font-semibold capitalize mb-6'>
 				create employee
 			</h3>

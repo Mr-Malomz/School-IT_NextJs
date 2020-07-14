@@ -51,7 +51,7 @@ const Sidebar: FC<NavProps> = ({ isModalOpen, handleModal }) => {
 				</div>
 				<div className='mt-4'>
 					<Link href='dashboard'>
-						<a className='flex items-center pl-8 hover:bg-admin-nav py-2 mb-2'>
+						<a className='flex items-center pl-8 hover:bg-admin-nav py-2 mb-2 active_nav'>
 							<HomeIcon className='mr-4' />
 							<span className='font-semibold text-white capitalize'>
 								home
