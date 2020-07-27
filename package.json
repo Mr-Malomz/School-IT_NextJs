@@ -6,6 +6,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
+		"test": "jest",
 		"postcss": "postcss styles/tailwind.css -o styles/main.css",
 		"buildcss": "postcss styles/tailwind.css -o styles/main.css --watch"
 	},
@@ -18,10 +19,13 @@
 		"tailwindcss": "^1.4.6"
 	},
 	"devDependencies": {
+		"@testing-library/react": "^10.4.7",
+		"@types/jest": "^26.0.7",
 		"@types/node": "^14.0.11",
 		"@types/react": "^16.9.35",
 		"@types/styled-components": "^5.1.1",
 		"autoprefixer": "^9.8.0",
+		"jest": "^26.1.0",
 		"postcss-cli": "^7.1.1",
 		"postcss-import": "^12.0.1",
 		"typescript": "^3.9.5"
