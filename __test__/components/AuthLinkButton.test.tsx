@@ -1,21 +1,21 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import AuthLinkButton from '../../components/AuthLinkButton';
-import { debug } from 'console';
 
 const defaultProps = {
 	text: 'create',
 	hrefLink: '#',
 };
 
-const setUpLiinkButton = () => render(<AuthLinkButton {...defaultProps} />);
+const { getByTestId } = render(<AuthLinkButton {...defaultProps} />);
 
 describe('The <AuthLinkButton /> component test', () => {
 	it('Link button should be defined', () => {
-		expect(AuthLinkButton).toBeDefined();
+		expect(AuthLinkButton).toBeInTheDocument();
 	});
 
 	it('Link button text and hrefLink should be in the document', () => {
-		
+		// expect(getByText(defaultProps.hrefLink)).toHaveTextContent(/''/i);
+		// expect(getByText(defaultProps.text)).toBe('create');
 	});
 });
