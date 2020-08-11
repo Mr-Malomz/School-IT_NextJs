@@ -6,9 +6,12 @@ import Link from 'next/link';
 const Employees = () => {
 	return (
 		<AuthLayout pageTitle='Employees'>
-			<div className='flex justify-between mb-6'>
+			<div
+				className='flex justify-between mb-6'
+				data-testid='employee-create-wrap'
+			>
 				<h3 className='text-2xl font-semibold capitalize'>employees</h3>
-				<AuthLinkButton text='create employee' hrefLink='#' />
+				<AuthLinkButton text='create employee' hrefLink='#'/>
 			</div>
 			<table className='w-full mb-6' style={styles.table}>
 				<thead>
@@ -46,156 +49,156 @@ const Employees = () => {
 						</td>
 						<td className='rounded-tr-lg rounded-br-lg'>
 							<Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
 									manage
 								</a>
 							</Link>
 						</td>
 					</tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            2
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							2
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            3
+							</Link>
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+					</tr>
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							3
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
+						</td>
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            4
+							</Link>
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+					</tr>
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							4
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
+						</td>
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            5
+							</Link>
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+					</tr>
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							5
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
+						</td>
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            6
+							</Link>
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+					</tr>
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							6
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
+						</td>
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            8
+							</Link>
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+					</tr>
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							8
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
+						</td>
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            9
+							</Link>
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+					</tr>
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							9
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
+						</td>
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
-                    <tr className='bg-white h-10 text-xs'>
-                        <td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
-                            10
+							</Link>
 						</td>
-                        <td>Aderinsola</td>
-                        <td>Emmanuel</td>
-                        <td>Teaching</td>
-                        <td className='hidden lg:inline-flex lg:mt-3'>
-                            02 - 01 - 2020
+					</tr>
+					<tr className='bg-white h-10 text-xs'>
+						<td className='rounded-tl-lg rounded-bl-lg pl-2 lg:pl-3'>
+							10
 						</td>
-                        <td className='rounded-tr-lg rounded-br-lg'>
-                            <Link href='#'>
-                                <a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
-                                    manage
+						<td>Aderinsola</td>
+						<td>Emmanuel</td>
+						<td>Teaching</td>
+						<td className='hidden lg:inline-flex lg:mt-3'>
+							02 - 01 - 2020
+						</td>
+						<td className='rounded-tr-lg rounded-br-lg'>
+							<Link href='#'>
+								<a className='font-semibold text-btn-sec inline-block capitalize hover:text-blue-900'>
+									manage
 								</a>
-                            </Link>
-                        </td>
-                    </tr>
+							</Link>
+						</td>
+					</tr>
 				</tbody>
 			</table>
 		</AuthLayout>

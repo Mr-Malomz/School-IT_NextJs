@@ -45,7 +45,11 @@ const AccountTableSect = () => {
 
 	return (
 		<div className='w-full'>
-			<AuthLinkButton hrefLink='#' text='create a new expense' />
+			<AuthLinkButton
+				hrefLink='#'
+				text='create a new expense'
+				data-testid='account-link'
+			/>
 			<TableWrapper>
 				<table>
 					<thead>
